@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionHorariosEcci", "AplicacionHorariosEcci\AplicacionHorariosEcci.csproj", "{4F52B7CF-6E78-40FD-A0D0-9B4571F8601A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F52B7CF-6E78-40FD-A0D0-9B4571F8601A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F52B7CF-6E78-40FD-A0D0-9B4571F8601A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F52B7CF-6E78-40FD-A0D0-9B4571F8601A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F52B7CF-6E78-40FD-A0D0-9B4571F8601A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BEE6B66-8EA4-46E9-840F-D7E1FFF918BF}
+	EndGlobalSection
+EndGlobal
