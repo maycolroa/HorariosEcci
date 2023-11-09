@@ -1,7 +1,10 @@
+import { AppRouter } from "./router/AppRouter";
 
 export const EcciApp = () => {
   return (
-    <h1>Hello World App</h1>
+    <>
+    
+    <AppRouter />
+    </>
   );
 };
-
