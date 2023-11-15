@@ -1,0 +1,7 @@
+@import 'reset-css';
+
+/* Añade tus estilos globales a continuación */
+body {
+  margin: 0;
+  padding: 0;
+}

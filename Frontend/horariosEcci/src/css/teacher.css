@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* login.css */
+
+.container-teacher {
+  display: grid;
+  grid-template-columns: 1fr 4fr; /* Columnas: Menu ocupa 1 fracción, Dashboard ocupa 2 fracciones */
+  height: 100vh; /* Altura del 100% del viewport, ajusta según tus necesidades */
+}
+
+

@@ -1,0 +1,30 @@
+.calendar-container {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.days-of-week {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.days-of-month {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  /* border: 1px solid #ccc; */
+  padding: 1px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+h2 {
+  color: #333;
+}

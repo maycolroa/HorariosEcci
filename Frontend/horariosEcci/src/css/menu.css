@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Centra el texto dentro de los botones */
+  background-color: #154178;
+  border-radius: 5px;
+  margin: 0; /* Agrega esta línea para asegurarte de que no hay margen */
+  padding: 0; /* Agrega esta línea para asegurarte de que no hay relleno */
+  width: 100%;
+  height: 100%;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 25%;
+  height: auto; /* Cambiado a auto para mantener la proporción */
+  margin-right: 20px; /* Ajusta según sea necesario */
+}
+
+.name {
+  color: white;
+  white-space: nowrap;
+  font: 600 20px "Montserrat-Bold", sans-serif;
+}
+
+.logo-menu {
+  width: 100px; /* Tamaño de la imagen, ajusta según tus necesidades */
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Estilos para los botones */
+button {
+  margin: 15px 0; /* Ajusta según sea necesario */
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #154178;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font: 500 16px "Montserrat-Bold", sans-serif;
+  
+}
+
+button:hover {
+  border-bottom: 1px solid white; /* Agrega una línea azul en la parte inferior */
+}
+
+.dashboard-button {
+  margin-top: 40px; /* Ajusta el margen superior entre la imagen y los botones */
+  margin-bottom: 20px;
+}
+
+.searcj-button {
+  margin-top: 30px; /* Ajusta el margen superior entre la imagen y los botones */
+  margin-bottom: 25px;
+}
+
+.class-button {
+  margin-top: 25px; /* Ajusta el margen superior entre la imagen y los botones */
+  margin-bottom: 25px;
+}
+
+.settings-button {
+  margin-top: 120px;
+}

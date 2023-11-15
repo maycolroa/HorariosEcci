@@ -1,0 +1,87 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container-login {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.central-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(174, 178, 184, 0.6);
+  height: 90%;
+  width: 30%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; /* Cambiado a 'space-around' para espaciar los elementos verticalmente */
+}
+
+.logo {
+  width: 30%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  margin-top: 20px; /* Ajusta según sea necesario para separar la imagen de la parte superior */
+}
+
+.title-login {
+  font: 700 30px "Montserrat-Bold", sans-serif
+}
+
+.user-text {
+  margin-bottom: -30px; /* Ajusta según sea necesario para reducir el espacio */
+  font: 500 20px "Montserrat-Bold", sans-serif;
+  color: white;
+}
+
+.user-input {
+  margin-bottom: 10px; /* Ajusta según sea necesario para reducir el espacio */
+  /* O puedes ajustar el padding para reducir el espacio interno */
+  /* padding: 5px; */
+  border-radius: 5px;
+  background-color: rgba(21, 65, 120, 0.7);
+  height: 30px;
+  border: none; /* Esta línea quita el borde */
+  outline: none; /* Esta línea quita el contorno al hacer clic */
+}
+
+.password-text {
+  margin-bottom: -30px;
+  font: 500 20px "Montserrat-Bold", sans-serif;
+  color: white;
+}
+
+.password-input {
+  background-color: rgba(21, 65, 120, 0.7);
+  height: 30px;
+  border-radius: 5px;
+  border: none; /* Esta línea quita el borde */
+  outline: none; /* Esta línea quita el contorno al hacer clic */
+}
+
+.password-input:focus {
+  background-color: white; /* Cambiado a blanco cuando el input está enfocado */
+}
+
+.user-input:focus {
+  background-color: white;
+}
+
+.continue-button {
+  border-radius: 10px;
+  font: 400 20px "Montserrat-Bold", sans-serif;
+}

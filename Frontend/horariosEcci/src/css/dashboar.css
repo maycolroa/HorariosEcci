@@ -1,0 +1,184 @@
+.container-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  color: black;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.calendar,
+.abstract {
+  width: 35%;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #179CB9;
+  border-radius: 20px;
+}
+
+/* arreglar los estilos de los calendarios y el resumen del profe  */
+
+.title-calendar {
+  color: black;
+  font-size: 20px;
+  font-family: 'Montserrat-Bold', sans-serif;
+  margin-bottom: 10px;
+}
+
+.day-list {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.abstract {
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.title-abstract {
+  color: black;
+  font-size: 20px;
+  font-family: 'Montserrat-Bold', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.title-container {
+  align-self: flex-start;
+  width: 90%;
+  margin-left: 40px;
+  padding-top: 20px; /* Ajusta este valor según sea necesario */
+  border-top: 2px solid black; /* Puedes ajustar el grosor y el color según tus preferencias */
+}
+
+.title-dashboard {
+  font: 700 20px 'Montserrat-Bold', sans-serif;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.time-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 30%;
+  width: 90%;
+  
+}
+
+.class-today {
+  width: 48%;
+  margin: 10px;
+}
+
+
+.class-today-1 {
+  border: 2px solid #179CB9;
+  padding: 20px;
+  border-radius: 25px;
+  margin-right: 20px; /* Agrega margen derecho para espaciar de class-today-2 */
+  width: 40%;
+  height: 70%;
+}
+
+.class-today-2 {
+  border: 2px solid #179CB9;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 20px; /* Agrega margen izquierdo para espaciar de class-today-1 */
+  width: 40%;
+  height: 70%;
+}
+
+.class-site-1 {
+  display: flex;
+  justify-content: space-between; /* Ajusta esto según tus preferencias */
+}
+
+.class-site-1 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-hour-1 {
+  display: flex;
+  justify-content: space-between; /* Ajusta esto según tus preferencias */
+}
+
+.class-hour-1 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-nomber-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-nomber-1 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-room-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-room-1 h5 {
+  margin: 0;
+}
+
+.class-site-2 {
+  display: flex;
+  justify-content: space-between; /* Ajusta esto según tus preferencias */
+}
+
+.class-site-2 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-hour-2 {
+  display: flex;
+  justify-content: space-between; /* Ajusta esto según tus preferencias */
+}
+
+.class-hour-2 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-nomber-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-nomber-2 h5 {
+  margin: 0;
+  margin-bottom: 5px; /* Elimina el margen predeterminado para evitar espacios innecesarios */
+}
+
+.class-room-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-room-2 h5 {
+  margin: 0;
+}
