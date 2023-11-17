@@ -1,0 +1,18 @@
+{
+  "name": "backend_node",
+  "version": "0.0.1",
+  "description": "esta es el backend de la aplicacion horariosEcci",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "maycol roa jairo gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
