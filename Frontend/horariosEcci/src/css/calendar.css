@@ -3,6 +3,9 @@
   max-width: 400px;
   margin: 0 auto;
 }
+.calendar-title-1 {
+  font: 500 15px 'Montserrat-Bold', sans-serif;
+}
 
 .days-of-week {
   display: flex;

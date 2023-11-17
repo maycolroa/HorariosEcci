@@ -15,16 +15,16 @@ export const Dashboard = () => {
         </div>
         <div className='abstract'>
           <h5 className='title-abstract-1'>ing jose ramiro</h5>
-          <div className='class-hours'>
+          <div className='abstract-class-hours'>
             <h5 className='title-hours'>Horas por semana  </h5>
             <h5>20</h5>
           </div>
-          <div className='weekly-hours'>
+          <div className='abstract-weekly-hours'>
             <h5 >Materias por Semestre</h5>
             <h5>3</h5>
           </div>
-          <div className='site'>
-            <h5 >cedes en las que dicta clase</h5>
+          <div className='abstract-site'>
+            <h5 >Sede</h5>
             <h5>Crisanto Luque</h5>
           </div>
         </div>

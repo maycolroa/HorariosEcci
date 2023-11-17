@@ -3,8 +3,7 @@ import { Loginpage } from '../pages/login';
 import { Teacherpage  } from '../pages/teacher';
 import { Managerpage } from "../pages/manager";
 
-
-
+// inicializacion del router app y las paginas que van a existir
 
 export const AppRouter = () => {
   return (

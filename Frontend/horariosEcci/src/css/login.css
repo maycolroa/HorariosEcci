@@ -22,7 +22,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(174, 178, 184, 0.6);
+  background-color:  rgba(21, 65, 120, 0.5);
   height: 90%;
   width: 30%;
   border-radius: 20px;
@@ -39,9 +39,12 @@ body, html {
 }
 
 .title-login {
-  font: 700 30px "Montserrat-Bold", sans-serif
+  font: 700 30px "Montserrat-Bold", sans-serif;
+  color: white;
 }
-
+.title_cuenta{
+  color: white;
+}
 .user-text {
   margin-bottom: -30px; /* Ajusta según sea necesario para reducir el espacio */
   font: 500 20px "Montserrat-Bold", sans-serif;
@@ -53,7 +56,7 @@ body, html {
   /* O puedes ajustar el padding para reducir el espacio interno */
   /* padding: 5px; */
   border-radius: 5px;
-  background-color: rgba(21, 65, 120, 0.7);
+  background-color: rgba(21, 65, 120, 0.5);
   height: 30px;
   border: none; /* Esta línea quita el borde */
   outline: none; /* Esta línea quita el contorno al hacer clic */

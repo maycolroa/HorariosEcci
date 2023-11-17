@@ -10,7 +10,7 @@ export const Calendar = () => {
 
   return (
     <div className="calendar-container">
-      <h2>Calendario</h2>
+      <h2 className='calendar-title-1'>Calendario</h2>
       <div className="days-of-week">
         {daysOfWeek.map((day) => (
           <div key={day} className="day">

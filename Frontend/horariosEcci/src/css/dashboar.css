@@ -13,12 +13,51 @@
   padding-top: 30px;
   padding-bottom: 20px;
 }
+.title-calendar-1 {
+  font: 700 20px 'Montserrat-Bold', sans-serif;
+  padding-bottom: 10px;
+}
+
+.title-abstract-1 {
+  padding-bottom: 30px;
+  font: 700 20px 'Montserrat-Bold', sans-serif;
+}
 
 .container-flex {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
+
+.abstract-class-hours {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.abstract-class-hours h5 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.abstract-weekly-hours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abstract-weekly-hours h5 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.abstract-site {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abstract-site h5 {
+  margin: 0;
+}
+
 
 .calendar,
 .abstract {
@@ -93,7 +132,7 @@
   border-radius: 25px;
   margin-right: 20px; /* Agrega margen derecho para espaciar de class-today-2 */
   width: 40%;
-  height: 70%;
+  height: 80%;
 }
 
 .class-today-2 {
@@ -102,7 +141,7 @@
   padding: 20px;
   margin-left: 20px; /* Agrega margen izquierdo para espaciar de class-today-1 */
   width: 40%;
-  height: 70%;
+  height: 80%;
 }
 
 .class-site-1 {
